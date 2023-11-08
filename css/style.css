@@ -112,7 +112,7 @@ section {
 
 .header .navbar-brand img {
     max-height: 12rem;
-    margin-left: 20rem;
+    /* margin-left: 20rem; */
 }
 
 .navbar-nav .nav-link {
