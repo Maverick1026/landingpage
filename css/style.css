@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Nunito:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,600&family=Roboto&display=swap');
 
 :root {
     --main-color: #141436;
@@ -64,7 +64,7 @@ section {
 .heading h3 {
     font-size: 4rem;
     color: var(--black);
-    font-family: 'Merienda One', cursive;
+    font-family: 'Poppins', cursive;
 }
 
 .btn {
@@ -194,13 +194,13 @@ section {
 }
 .summer-text {
     color: #fe9001;
-    font-family: 'Merienda One', cursive;
+    font-family: 'Poppins', cursive;
 }
 
 .home-bg .home .content h3 {
     font-size: 6rem;
     color: var(--black);
-    font-family: 'Merienda One', cursive;
+    font-family: 'Poppins', cursive;
     white-space: nowrap;
     margin-right: 6rem;
 }
@@ -264,7 +264,7 @@ section {
 .about .content h3 {
     font-size: 4.5rem;
     color: var(--black);
-    font-family: 'Merienda One', cursive;
+    font-family: 'Poppins', cursive;
     padding-bottom: 1rem;
 }
 
@@ -349,6 +349,12 @@ section {
     width: 100%;
     object-fit: cover;
 }
+.carousel-image {
+    object-fit: contain;
+    width: 800px; /* Adjust to your preferred width */
+    height: 700px; /* Adjust to your preferred height */
+}
+
 
 .blog .blog-content {
     display: grid;
