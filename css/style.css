@@ -98,7 +98,30 @@ section {
     border-radius: 2px; 
     margin: 4px 0; 
 }
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
 
+.navbar-nav .nav-item.dropdown:hover .nav-link {
+    color: #fe9001; /* Change color on hover */
+}
+
+.dropdown-menu {
+    background-color: #FFF2E4;
+    box-shadow: 0 0.1rem 0.5rem rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.dropdown-menu a {
+    font-size: 2rem; /* Adjust the font size as needed */
+    color: #141436;
+    
+}
+
+.dropdown-menu a:hover {
+    background-color: var(--main-color);
+    color: var(--white);
+}
 
 .header {
     background-color: #FFF2E4;
@@ -505,7 +528,7 @@ section {
     }
 
     .navbar-nav .nav-item:first-child .nav-link {
-        margin-left: 7rem;
+        margin-left: 5rem;
     }
 
     .navbar-nav .nav-item:not(:first-child) .nav-link {
@@ -514,6 +537,17 @@ section {
     }
     .navbar-toggler {
         padding: 10px; 
+    }
+
+    .dropdown-menu {
+        text-align: center;
+    }
+
+    .dropdown-menu a {
+        font-size: 2rem; /* Adjust the font size as needed */
+        color: #141436;
+        display: block;
+        padding: 0.5rem;
     }
 
     html {
@@ -542,7 +576,7 @@ section {
     }
 
     .navbar-nav .nav-item:first-child .nav-link {
-        margin-left: 7rem;
+        margin-left: 5rem;
     }
 
     .navbar-nav .nav-item:not(:first-child) .nav-link {
@@ -552,6 +586,17 @@ section {
     .navbar-toggler {
         padding: 10px; 
     }
+    .dropdown-menu {
+        text-align: center;
+    }
+
+    .dropdown-menu a {
+        font-size: 2rem; /* Adjust the font size as needed */
+        color: #141436;
+        display: block;
+        padding: 0.5rem;
+    }
+
     #menu-btn {
         display: inline-block;
         transition: .2s linear;
@@ -611,5 +656,16 @@ section {
 
     .heading h3 {
         font-size: 3rem;
+    }
+    
+    .dropdown-menu {
+        text-align: center;
+    }
+
+    .dropdown-menu a {
+        font-size: 2rem; /* Adjust the font size as needed */
+        color: #141436;
+        display: block;
+        padding: 0.5rem;
     }
 }

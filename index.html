@@ -28,8 +28,14 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#home">Home</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#menu">Menu</a>
+                            <li class="nav-item dropdown"> <!-- Add 'dropdown' class here -->
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Menu
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#best-sellers">Best Sellers</a>
+                                    <a class="dropdown-item" href="#menu">Menu</a>
+                                </div>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#menu">Services</a>
@@ -88,43 +94,11 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d477.45895394978163!2d123.24493111124609!3d9.2804865832093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33ab6781efe165eb%3A0x8016aad02ad83de3!2sThe%20SUMMERHOUSE%20Cafe!5e1!3m2!1sen!2sph!4v1699082445928!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div></div>
 
-    <!-- Services offered -->
-    <div class="facility">
-        <div class="heading">
-            <!-- <img src="./img/heading-img.png" alt="heading"> -->
-            <h3>Services offered</h3>
-        </div>
-        <div class="box-container">
-            <div class="box">
-                <img src="./img/coffee.png" alt="icon">
-                <h3>varieties of coffees</h3>
-                <p>Discover a diverse selection of coffee blends to satisfy your taste buds.</p>
-            </div>
-            <div class="box">
-                <img src="./img/fast-food.png" alt="icon">
-                <h3>meals and sweets</h3>
-                <p>Indulge in a delectable range of dishes and sweet treats that will satisfy your cravings.</p>
-            </div>
-            <div class="box">
-                <img src="./img/coffee-cup.png" alt="icon">
-                <h3>ready to go coffee</h3>
-                <p>Grab your favorite coffee on the fly and enjoy your day.</p>
-            </div>
-            <div class="box">
-                <img src="./img/canvas.png" alt="icon">
-                <h3>Painting Workshop</h3>
-                <p>Create beautiful art and express your creativity in our painting workshop.</p>
-            </div>
-        </div>
-    </div>
-    
-    
-
     <!-- menu -->
     <section class="menu" id="menu">
         <div class="heading">
             <!-- <img src="./img/heading-img.png" alt="heading"> -->
-            <h3>popular menu</h3>
+            <h3>Menu</h3>
         </div>
 
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
@@ -169,12 +143,42 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
+    
     </section>
+    <!-- Services offered -->
+    <div class="facility">
+        <div class="heading">
+            <!-- <img src="./img/heading-img.png" alt="heading"> -->
+            <h3>Services offered</h3>
+        </div>
+        <div class="box-container">
+            <div class="box">
+                <img src="./img/coffee.png" alt="icon">
+                <h3>varieties of coffees</h3>
+                <p>Discover a diverse selection of coffee blends to satisfy your taste buds.</p>
+            </div>
+            <div class="box">
+                <img src="./img/fast-food.png" alt="icon">
+                <h3>meals and sweets</h3>
+                <p>Indulge in a delectable range of dishes and sweet treats that will satisfy your cravings.</p>
+            </div>
+            <div class="box">
+                <img src="./img/coffee-cup.png" alt="icon">
+                <h3>ready to go coffee</h3>
+                <p>Grab your favorite coffee on the fly and enjoy your day.</p>
+            </div>
+            <div class="box">
+                <img src="./img/canvas.png" alt="icon">
+                <h3>Painting Workshop</h3>
+                <p>Create beautiful art and express your creativity in our painting workshop.</p>
+            </div>
+        </div>
+    </div>
 
     <!-- gallery -->
     <section class="gallery" id="gallery">
         <div class="heading">
-            <h3>our gallery</h3>
+            <h3>Our Gallery</h3>
         </div>
 
         <div id="galleryCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -225,10 +229,8 @@
     </div> -->
     <div class="content">
         <h3>About Us</h3>
-        <p>Client Representative<br/>Name: Gerabelle Rae C. Dagoy</p>
-        <p>Client Representative Email: <br/>gerabellerae2523@gmail.com</p>
         <p>Our Summerhouse cafe is named after the owner's son, Summer, and is situated at the prestigious address of 2F Gloriana Bella Building, South Poblacion, Valencia, Negros Oriental. This cafe holds a special place in the family of Miss Gerabelle C. Dagoy, as it once belonged to their grandmother and served as a gathering spot for generations. Childhood memories were crafted within its walls, and the breathtaking view of the plaza and its surrounding left a lasting impression. We, at Summerhouse Cafe, relish sharing this cherished place with others.</p>
-        <p>In 2008, Miss Gerabelle C. Dagoy embarked on an entrepeneurial venture and established a vibrant restobar that thrived for five years. Now, she desires to recreate that magic by transforming it into a cafe, offering a more refined and professional experience. At Summerhouse Cafe, you can savor quality coffee, delectable treats, and a welcoming ambiance that fosters a sense of community and shared moments, just like the summerhouse itself.</p>
+        <p>In 2008, the owner embarked on an entrepeneurial venture and established a vibrant restobar that thrived for five years. Now, she desires to recreate that magic by transforming it into a cafe, offering a more refined and professional experience. At Summerhouse Cafe, you can savor quality coffee, delectable treats, and a welcoming ambiance that fosters a sense of community and shared moments, just like the summerhouse itself.</p>
         <p>Come and join us at Summerhouse Cafe, where coffee brings people together and memories are made.</p>
     </div>
     <div class="content">
@@ -316,20 +318,17 @@
     <section class="footer">
         <div class="box-container">
             <div class="box">
-                <i class="fas fa-clock"></i>
-                <h3>opening hours</h3>
+                <h3>Opening Hours</h3>
                 <p style="font-weight: bold; font-size: 2em;">Opens Daily</p>
                 <p>02:00pm to 10:00pm</p>
                 <p style="font-weight: bold; font-size: 2em;">EXCEPT ON MONDAYS</p>
             </div>
             <div class="box">
-                <i class="fas fa-map-marker-alt"></i>
                 <h3>Shop Location</h3>
                 <p>Larena St., South Poblacion Valencia Negros Oriental 6215</p>
             </div>
             <div class="box">
-                <i class="fas fa-phone"></i>
-                <h3>Our number</h3>
+                <h3>Our Number</h3>
                 <p>+63 929 099 5773</p>
                 <p>+63 906 288 0939</p>
             </div>
