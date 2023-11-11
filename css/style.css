@@ -17,7 +17,7 @@
     outline: none;
     border: none;
     text-decoration: none;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
 }
 
 *::selection {
@@ -111,7 +111,7 @@ section {
 }
 
 .header .navbar-brand img {
-    max-height: 12rem;
+    max-height: 5rem;
     /* margin-left: 20rem; */
 }
 
@@ -126,7 +126,7 @@ section {
 
 .navbar-nav .nav-item:first-child .nav-link {
     margin-right: 50px;
-    margin-left: 30rem; 
+    margin-left: 2rem; 
 }
 
 
@@ -175,7 +175,6 @@ section {
 
 .home-bg {
     min-height: calc(80rem - var(--header-height)); /* Adjust the header height variable */
-    background: linear-gradient(90deg, var(--white), transparent 100%), url(../img/home-bg.png) no-repeat;
     background-size: cover;
     background-position: center;
     margin-bottom: 1rem;
@@ -191,6 +190,10 @@ section {
 .home-bg .home .content {
     width: 50rem;
     text-align: center;
+    margin: 0 auto; /* Center the content horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .summer-text {
     color: #fe9001;
@@ -203,6 +206,7 @@ section {
     font-family: 'Poppins', cursive;
     white-space: nowrap;
     margin-right: 6rem;
+    
 }
 
 .home-bg .home .content p {
@@ -210,6 +214,7 @@ section {
     font-size: 1.6rem;
     color: var(--black);
     line-height: 2;
+    width: 100%; /* Make these elements take full width */
 }
 
 .best-seller {
