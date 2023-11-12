@@ -238,10 +238,12 @@ section {
     line-height: 2;
     width: 100%; /* Make these elements take full width */
 }
-
+#carouselAd {
+    margin-top: 17rem; /* Adjust the value as needed to achieve the desired spacing */
+}
 .best-seller {
     /* Add a top margin to create space between "Best Seller" and "Home" */
-    margin-top: -190px; /* Adjust the margin-top as needed, possibly a negative value */
+    margin-top: -150px; /* Adjust the margin-top as needed, possibly a negative value */
     padding-top: 0; /* Remove top padding */
 }
 
@@ -249,7 +251,7 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 3rem 0;
+    margin: 10rem 0;
 }
 
 .best-seller-item img {
