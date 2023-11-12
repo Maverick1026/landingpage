@@ -306,7 +306,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 450px; /* Adjust the height as needed */
+    height: 400px; /* Adjust the height as needed */
     margin: 20px 0; /* Add margin for spacing */
     margin-bottom: 20rem;
 }

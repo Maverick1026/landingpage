@@ -1,3 +1,24 @@
+const bestSellerDropdownItem = document.querySelector('.nav-item.dropdown .nav-link.dropdown-toggle');
+const bestSellerDropdownMenu = document.querySelector('.nav-item.dropdown .dropdown-menu');
+
+// Add a click event listener to the "Best Sellers" dropdown item
+bestSellerDropdownItem.addEventListener('click', (event) => {
+    // Prevent the default behavior of the link
+    event.preventDefault();
+
+    // Get the href attribute of the "Best Sellers" dropdown item
+    const bestSellerHref = bestSellerDropdownItem.getAttribute('href');
+
+    // Scroll to the target section
+    document.querySelector(bestSellerHref).scrollIntoView({
+        behavior: 'smooth'
+    });
+
+    // Close the dropdown menu if it's open
+    if (bestSellerDropdownMenu.classList.contains('show')) {
+        bestSellerDropdownMenu.classList.remove('show');
+    }
+});
 // Get a reference to the "Home" link
 const homeLink = document.querySelector('a[href="#home"]');
 
