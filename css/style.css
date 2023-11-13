@@ -12,7 +12,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'poppins', sans-serif;
     box-sizing: border-box;
     outline: none;
     border: none;
@@ -254,11 +254,20 @@ section {
     height: 90%;
   }
 
-  .carousel-item img {
+  /* .carousel-item img {
     object-fit: cover;
     height: 90%;
     width: 90%;
-  }
+  } */
+  .carousel-image {
+    object-fit: cover;
+    width: 800px;
+    height: 600px;
+}
+.carousel-inner {
+    width: 100%;
+}
+
 .best-seller {
     /* Add a top margin to create space between "Best Seller" and "Home" */
     margin-top: -40px; /* Adjust the margin-top as needed, possibly a negative value */
@@ -286,7 +295,7 @@ section {
 }
 
 .best-seller-item .content p {
-    font-size: 1.6rem; /* Adjust the font size as needed */
+    font-size: 1.8rem; /* Adjust the font size as needed */
 }
 
 .about {
@@ -396,12 +405,6 @@ section {
     width: 100%;
     object-fit: cover;
 }
-.carousel-image {
-    object-fit: contain;
-    width: 800px; /* Adjust to your preferred width */
-    height: 700px; /* Adjust to your preferred height */
-}
-
 
 .blog .blog-content {
     display: grid;
