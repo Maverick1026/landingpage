@@ -196,15 +196,15 @@ section {
 }
 
 .home-bg {
-    min-height: calc(80rem - var(--header-height)); /* Adjust the header height variable */
+    min-height: calc(90rem - var(--header-height)); /* Adjust the header height variable */
     background-size: cover;
     background-position: center;
-    margin-bottom: 1rem;
+    margin-bottom: 5rem;
     padding-bottom: 0; /* Remove bottom padding */
 }
 
 .home-bg .home {
-    min-height: 100rem;
+    min-height: 90rem;
     display: flex;
     align-items: center;
 }
@@ -228,7 +228,7 @@ section {
     font-family: 'Poppins', cursive;
     white-space: nowrap;
     margin-right: 6rem;
-    
+    margin-top: -25rem;
 }
 
 .home-bg .home .content p {
@@ -239,12 +239,30 @@ section {
     width: 100%; /* Make these elements take full width */
 }
 #carouselAd {
-    margin-top: 17rem; /* Adjust the value as needed to achieve the desired spacing */
-}
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    margin-top: 10rem;
+  }
+
+  .carousel-inner {
+    height: 90%;
+  }
+
+  .carousel-item {
+    height: 90%;
+  }
+
+  .carousel-item img {
+    object-fit: cover;
+    height: 90%;
+    width: 90%;
+  }
 .best-seller {
     /* Add a top margin to create space between "Best Seller" and "Home" */
-    margin-top: -150px; /* Adjust the margin-top as needed, possibly a negative value */
-    padding-top: 0; /* Remove top padding */
+    margin-top: -40px; /* Adjust the margin-top as needed, possibly a negative value */
+    padding-top: 3rem; /* Remove top padding */
 }
 
 .best-seller-item {
